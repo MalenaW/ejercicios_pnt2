@@ -1,12 +1,11 @@
-import { Counter } from "./components/Counter"
-import { TodoList } from "./components/TodoList"
+import { Formulario } from "./components/Formulario";
 
 function App() {
   
   return (
     <>
-    {/* <TodoList/> */}
-    <Counter/>
+    <Formulario titulo= "Completar Formulario" size = {30}/>
+
     </>
   )
 }
