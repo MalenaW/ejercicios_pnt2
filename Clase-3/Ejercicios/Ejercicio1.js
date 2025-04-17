@@ -46,7 +46,7 @@ async function obtenerPokemon(listaIds) {
   // y luego recorrer esos en la siguiente url
   // fetch https://pokeapi.co/api/v2/pokemon/${}
 
-  console.log("Respuesta final: ", respuestas);
+  console.log("Respuesta final: ", respuesta);
 }
 
 obtenerPokemon(listaIds);
