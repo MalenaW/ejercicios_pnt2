@@ -5,19 +5,23 @@ import { Header } from './components/Header'
 import { AgregarProducto } from './components/AgregarProducto'
 import { Carrito } from './components/Carrito'
 import { CartProvider } from './context/CartContext'
+import { Navbar } from "./components/Navbar"
+import { Login } from "./components/Login"
 function App() {
 
-  const estado = 5
+  /*const estado = 5*/
   return (
     <CartProvider>
-    <Header />
+    {/*<Header />*/}
+    <Navbar/>
+    <Login/>
     {/* <TodoList/> */}
     {/* <Counter/>
     <PokemonList /> */}
-    <div>
+    {/*<div>
       <Carrito />
     </div>
-    <AgregarProducto />
+    <AgregarProducto />*/}
     </CartProvider>
   )
 }
